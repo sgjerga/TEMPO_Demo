@@ -1,0 +1,17 @@
+Design details and results are described in:
+
+Rasing, N. L., Janus, S. I. M., Vink, A. C., Frischen, U. A. S., Neuser, J., Wake, J. D., Skoluda, N., Sveinsdottir, V., Geretsegger, M., Langeland, E., Kreutz, G., Gold, C., Nater, U. M., & Zuidema, S. U. (2025). The short-term impact of music interventions on stress: Results of a multinational cluster-randomized trial using salivary cortisol and alpha-amylase assessments in care home residents with dementia. Psychoneuroendocrinology, 182, 107640. https://doi.org/10.1016/j.psyneuen.2025.107640
+
+Rasing, N. L., Janus, S. I. M., Kreutz, G., Sveinsdottir, V., Gold, C., Nater, U. M., & Zuidema, S. U. (2022). The Impact of Music on Stress Biomarkers: Protocol of a Substudy of the Cluster-Randomized Controlled Trial Music Interventions for Dementia and Depression in ELderly Care (MIDDEL). Brain Sciences, 12(4), Article 4. https://doi.org/10.3390/brainsci12040485
+
+
+Variables:
+
+pid - participant ID
+group - allocated group (GMT, RCS, CONTROL)
+month - month after randomisation (1, 3, 6)
+time - time point in relation to session (a - before; b - after; c - 60min after session)
+sAA - salivary amylase (note: correction factor for salivettes has already been applied)
+sCort - salivary cortisol
+vas_s - visual analog scale for stress
+present_sess - indicating whether participant attended the session (1 - yes; 2 - no; 3 or NA - unknown)
